@@ -1,0 +1,145 @@
+div {
+  font-family: "Karla";
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 1440px;
+  height: 800px;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container1 {
+  width: 635px;
+  height: 475px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.article1 {
+  width: 635px;
+  height: 215px;
+  background-color: white;
+  padding-left: 40px;
+}
+
+.title {
+  margin-top: 45px;
+  margin-bottom: 27px;
+  color: hsl(179, 62%, 43%);
+  font-size: 25px;
+  font-weight: 700;
+}
+.time {
+  margin-bottom: 20px;
+  color: hsl(71, 73%, 54%);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text {
+  width: 530px;
+  color: hsl(218, 22%, 67%);
+  line-height: 25px;
+  font-size: 16px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.article2 {
+  width: 317px;
+  height: 260px;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  border-bottom-left-radius: 7px;
+}
+
+.date {
+  margin-top: 45px;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.price1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price2 {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.frequency {
+  font-size: 15px;
+  color: white;
+  opacity: 0.5;
+  font-weight: 400;
+}
+
+.conditions {
+  color: white;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 30px;
+}
+
+.sign-button {
+  width: 235px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(71, 73%, 54%);
+  font-family: "Karla";
+  font-size: 16px;
+}
+
+.article3 {
+  width: 317px;
+  height: 260px;
+  background-color: hsl(179, 51%, 52%);
+  border-bottom-right-radius: 7px;
+  padding-left: 40px;
+  padding-top: 45px;
+}
+
+.top {
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.overview {
+  color: white;
+  opacity: 0.6;
+  width: 208px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media (max-width: 375px) {
+  .container {
+    flex-direction: column;
+  }
+}
